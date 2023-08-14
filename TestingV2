@@ -14,6 +14,6 @@ Notification:Notify(
 )
 wait(3)
 Notification:Notify(
-    {Title = "Script Executed! ", Description = " type unknown Executed"},
+    {Title = "Script Error! ", Description = " alpha Error"},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
 ) 
