@@ -8,12 +8,17 @@ Notification:Notify(
 )
 wait(3)
 Notification:Notify(
-    {Title = " Powered By Github", Description = "Hey Its not done yet"},
+    {Title = " WARNING", Description = "ITS ONLY FOR TESTER ITS WAS PRIVATED FILE"},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "image"},
     {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)}
 )
 wait(3)
 Notification:Notify(
-    {Title = "Script Error! ", Description = " alpha Error"},
+    {Title = "Powered by Github ", Description = " Coded By Unknownproooolucky"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
+) 
+wait(3)
+Notification:Notify(
+    {Title = "Script Error! ", Description = " type PermShiftlockV2 Error!!!"},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
 ) 
