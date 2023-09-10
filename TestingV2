@@ -19,6 +19,6 @@ Notification:Notify(
 ) 
 wait(3)
 Notification:Notify(
-    {Title = "Script Error! ", Description = " type PermShiftlockV2 Error!!!"},
+    {Title = "Script Error! ", Description = " type ?lua Error!!!"},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
 ) 
