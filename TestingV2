@@ -2,23 +2,7 @@ local NotificationHolder = loadstring(game:HttpGet("https://raw.githubuserconten
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
 
 Notification:Notify(
-    {Title = "Alpha Script", Description = "Bro its not done yet"},
+    {Title = "Alpha Script", Description = "pls wait until i update this"},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "option"},
     {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
 )
-wait(3)
-Notification:Notify(
-    {Title = " WARNING", Description = "ITS ONLY FOR TESTER ITS WAS PRIVATED FILE"},
-    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "image"},
-    {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)}
-)
-wait(3)
-Notification:Notify(
-    {Title = "Powered by Github ", Description = " Coded By Unknownproooolucky"},
-    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
-) 
-wait(3)
-Notification:Notify(
-    {Title = "Script Error! ", Description = " type ?lua Error!!!"},
-    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
-) 
