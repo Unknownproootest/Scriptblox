@@ -9,4 +9,4 @@ Notification:Notify(
 
 wait(10)
 
-setfpscap(1)
+game.Players.LocalPlayer:Kick("U got Kick to Survive the freeze screen Accident")
